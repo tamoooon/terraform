@@ -1,0 +1,20 @@
+# Terraform state files（インフラの状態を記録、機密性あり）
+*.tfstate
+*.tfstate.*
+*.backup
+.terraform/
+
+# Terraform plugin directory（キャッシュファイル）
+.terraform/
+
+# Crash log（エラー時のログファイル）
+crash.log
+
+# 変数ファイル（機密情報を含む場合）
+*.tfvars
+!*.tfvars.example  # サンプルファイルはOK（構造を共有）
+
+# 見落とし防止用
+*.tfplan
+
+*.DS_Store
