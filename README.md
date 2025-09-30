@@ -1,5 +1,9 @@
 # Terraform AWS Infrastructure Setup
 
+## Architecture
+<img width="770" height="422" alt="image" src="https://github.com/user-attachments/assets/1da90087-0a69-4d19-9a96-877833e50c00" />
+
+## 作成されるリソース
 このリポジトリは、Terraform を用いて主に以下の AWS リソースを構築します：
 
 - カスタム VPC（パブリック/プライベートサブネット）
