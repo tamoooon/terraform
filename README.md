@@ -108,9 +108,6 @@ terraform plan -var-file="terraform.tfvars"
 terraform apply -var-file="terraform.tfvars"
 ```
 
-## 📤 出力例
-`terraform apply` 実行後に表示される主な出力：
-
 ## 🧹 後始末
 ```bash
 terraform destroy -var-file="terraform.tfvars"
